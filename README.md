@@ -27,7 +27,8 @@ Designed with a clean and modern interface using Tailwind CSS.
 - **React-use-clipboard** (For clipboard functionality)
 
 ## 📸 Screenshot
-![Speech-to-Text App](screenshot.png)  
+![Speech-to-Text App](public/screenshot.png)
+  
 
 ## 🔧 Installation & Setup
 1️⃣ Clone the repository:
