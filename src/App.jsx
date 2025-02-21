@@ -41,7 +41,7 @@ export default function App() {
       <div className="options">
         <div className="btn-style">
           <button onClick={setCopied} className="copy-btn">
-            {isCopied ? <FaCheck color="white" /> : <FaRegClipboard />}{" "}
+            {isCopied ? <FaCheck color="green" /> : <FaRegClipboard />}{" "}
             {/* {isCopied ? " Copied!" : " Copy"} */}
           </button>
           <button
