@@ -24,7 +24,7 @@ body {
 
 .main-content {
   border: #eee;
-  box-shadow: 0 2px 3px rgba(146, 143, 143, 0.4);
+  box-shadow: 0 0px 5px rgba(146, 143, 143, 0.9);
   background-color: #eee;
   color: #000;
   border-radius: 10px;
