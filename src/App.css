@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(41, 38, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 650px;
+}
+
+.container h2 {
+  color: white;
+  text-shadow: 0px 1px 1px #eee;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+
+.main-content {
+  border: #eee;
+  box-shadow: 0 2px 3px rgba(146, 143, 143, 0.4);
+  background-color: #eee;
+  color: #000;
+  border-radius: 10px;
+  width: 600px;
+  height: 300px;
+  font-size: 20px;
+  border: 3px solid #5c677d;
+}
+
+.btn-style {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.btn-style button {
+  box-shadow: 0px 2px 2px #a3a1a1;
+  background-color: #eee;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  outline: none;
+}
+
+.btn-style select {
+  box-shadow: 0px 2px 2px #a3a1a1;
+  background-color: #eee;
+  color: #000;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+button.active {
+  background-color: #28a745; /* Green background */
+  color: white;
+}
+
+.copy-btn:hover, 
+.reset:hover,
+button:hover {
+    border: none;
+    color: white;
+    background-color: #28a745;
+  }
