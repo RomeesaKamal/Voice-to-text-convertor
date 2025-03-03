@@ -49,10 +49,9 @@ export default function App() {
             className={isListening ? "active" : ""}
           >
             <FaMicrophone size={20} />
-             {/* ({language}) */}
+            {/* ({language}) */}
           </button>
           <button
-          
             onClick={stopListening}
             className={!isListening ? "active" : ""}
           >
@@ -72,9 +71,8 @@ export default function App() {
             <option value="ar-SA">Arabic</option>
           </select>
         </div>
+        <div className="main-content">{transcript}</div>
       </div>
-
-      <div className="main-content">{transcript}</div>
     </div>
   );
 }

@@ -66,6 +66,12 @@ button.active {
   color: white;
 }
 
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .copy-btn:hover,
 .reset:hover,
 button:hover {
@@ -74,7 +80,7 @@ button:hover {
   background-color: #28a745;
 }
 
-@media (max-width: 677px) {
+@media (max-width: 631px) {
   .container {
     padding: 40px;
   }
@@ -89,36 +95,61 @@ button:hover {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
   }
 }
 
-@media (max-width: 533px) {
-  .main-content {
-    width: 80%;
+@media (max-width: 575px) {
+  .options {
+    padding: 20px;
+    font-size: medium;
   }
-  .btn-style {
-    width: 80%;
-  }
+
   .btn-style button {
-    font-size: 16px;
-  }
-  .btn-style select {
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 18px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 517px) {
   .container {
-    width: 100%;
-    height: 100vh;
-    margin-left: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .btn-style button {
-    font-size: 16px;
+  .container,
+  .options {
+    margin-left: 40px;
   }
-  .btn-style select {
-    font-size: 16px;
+  h2 {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 445px) {
+  .options {
+    margin-left: 80px;
+  }
+  h2{
+    font-size: 29px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  button{
+    font-size: medium;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .options {
+    margin-left: 110px;
+  }
+  h2{
+    font-size: 29px;
+    text-align: center;
+    margin-left: 70px;
   }
 }
